@@ -1,0 +1,45 @@
+body {
+	font-weight: 400;
+	line-height: 1.5;
+	font-size: 100%;
+	font-family: arial;
+}
+
+header {
+	background: rgb(250, 250, 250);
+	padding: 8px 16px;
+	border-bottom: 1px solid rgb(222, 222, 222);
+	box-shadow: 0 0 8px 0 rgb(222, 222, 222);
+	min-width: 960px;
+}
+nav {
+	font-size: 22px;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo  {
+	width: 100px;
+}
+
+li {
+	margin: 0 12px;
+}
+
+a, 
+a:hover {
+	border: 1px solid rgb(211, 211, 211);
+	border-radius: 8px;
+	padding: 0.25rem 1rem;
+	background: white;
+	color: grey;
+	text-align: center;
+	user-select: none;
+}
+
+a:hover {
+	box-shadow: 0 0 5px 2px rgb(65, 114, 238);
+}
